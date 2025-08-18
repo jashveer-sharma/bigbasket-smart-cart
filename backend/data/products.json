@@ -1,0 +1,9 @@
+[
+  {"id": 1, "name": "Milk", "category": "dairy", "price": 50, "weight": "1L"},
+  {"id": 2, "name": "Bread", "category": "staples", "price": 30, "weight": "400g"},
+  {"id": 3, "name": "Paneer Fresh 200g", "category": "dairy", "price": 90, "weight": "200g"},
+  {"id": 4, "name": "Tomato", "category": "fruits-vegetables", "price": 20, "weight": "500g"},
+  {"id": 5, "name": "Onion", "category": "fruits-vegetables", "price": 25, "weight": "1kg"},
+  {"id": 6, "name": "Chips", "category": "snacks", "price": 20, "weight": "100g"},
+  {"id": 7, "name": "Cola", "category": "beverages", "price": 40, "weight": "500ml"}
+]
