@@ -23,7 +23,56 @@ Built with **React (Vite)** on the frontend and **FastAPI** on the backend, with
 
 ## 📂 Project Structure
 
-bigbasket-smart-ai-cart/ │ ├── frontend/           # React + Vite frontend │   ├── src/ │   │   ├── components/ # Header, Footer, ProductCard, Toast, etc. │   │   ├── pages/      # Home, Category, AutoCart, Recipes, Vending, Cart, Login, etc. │   │   ├── context/    # CartContext, AuthContext │   │   ├── data/       # Catalog & categories │   │   └── index.css   # Theme styles │   └── vite.config.js │ ├── backend/            # FastAPI backend │   ├── app.py          # Main FastAPI app (Products, Auth, AI routes) │   ├── requirements.txt │   └── .env.example    # API keys config (OpenAI/HuggingFace) │ ├── screenshots/        # UI screenshots (add yours here) └── README.md
+bigbasket-smart-ai-cart/
+│
+├── frontend/                  # React + Vite frontend
+│   ├── public/                # Static assets
+│   ├── src/
+│   │   ├── components/        # Reusable UI components
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   ├── ToastProvider.jsx
+│   │   │   └── ...
+│   │   ├── context/           # Global state providers
+│   │   │   ├── AuthContext.jsx
+│   │   │   ├── CartContext.jsx
+│   │   ├── data/              # Catalog & mock product data
+│   │   │   ├── catalog.js
+│   │   │   └── ...
+│   │   ├── pages/             # Page-level components
+│   │   │   ├── AutoCart.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Category.jsx
+│   │   │   ├── Checkout.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── RecipeToCart.jsx
+│   │   │   ├── VendingMachine.jsx
+│   │   │   └── ...
+│   │   ├── App.jsx            # Main app routing
+│   │   ├── index.css          # Styles (BigBasket theme)
+│   │   └── main.jsx           # React entry point
+│   ├── vite.config.js
+│   ├── package.json
+│   └── ...
+│
+├── backend/                   # FastAPI backend
+│   ├── app.py                 # FastAPI entry point
+│   ├── requirements.txt       # Backend dependencies
+│   ├── .env.example           # Environment variables (API keys etc.)
+│   └── ...
+│
+├── screenshots/               # UI screenshots for README
+│   ├── home.png
+│   ├── autocart.png
+│   ├── recipes.png
+│   ├── vending.png
+│   └── ...
+│
+├── README.md                  # Project documentation
+└── .gitignore                 # Ignored files (node_modules, venv, etc.)
 
 ---
 
