@@ -90,13 +90,13 @@ Runs on → `http://localhost:5173`
 
 > 🔧 Prototype is **work in progress** — full version will be submitted by **18th Aug 2025, 12 PM**.
 
-### 🏠 Home Page (Progress 1)
+![1](./screenshots/1.png)
 
-![Home Page 1](./screenshots/home1.png)
+![2](./screenshots/2.png)
 
-### 🏠 Home Page (Progress 2)
+![3](./screenshots/3.png)
 
-![Home Page 2](./screenshots/home2.png)
+![4](./screenshots/4.png)
 
 ---
 
