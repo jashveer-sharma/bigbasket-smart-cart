@@ -23,6 +23,7 @@ Built with **React (Vite)** on the frontend and **FastAPI** on the backend, with
 
 ## 📂 Project Structure
 
+'''bash
 bigbasket-smart-ai-cart/
 │
 ├── frontend/                  # React + Vite frontend
